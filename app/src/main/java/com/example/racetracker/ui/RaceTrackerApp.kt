@@ -65,9 +65,7 @@ fun RaceTrackerApp() {
     }
     var raceInProgress by remember { mutableStateOf(false) }
 
-    LaunchedEffect {
 
-    }
 
 
     RaceTrackerScreen(
@@ -80,7 +78,7 @@ fun RaceTrackerApp() {
 
 @Composable
 private fun RaceTrackerScreen(
-    playerOne: RaceParticipant,
+    playerOne: RaceParticipant,f
     playerTwo: RaceParticipant,
     isRunning: Boolean,
     onRunStateChange: (Boolean) -> Unit,
